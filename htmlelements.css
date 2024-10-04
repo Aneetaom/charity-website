@@ -1,0 +1,151 @@
+*{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+      font-weight: weight;
+    font-style: normal; 
+} 
+
+.bg-dark.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+}
+
+@media (max-width: 768px) {
+  .d-flex.justify-content-between.align-items-center.pt-5 {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-info {
+    margin-bottom: 0px;
+  }
+  
+  .social-icons {
+    margin-bottom: 0px;
+  }
+  
+  .social-icons:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.btn-donate {
+  background-color: white;
+  color: rgb(223, 115, 14);           
+  width: 130px;            
+  height: 40px;             
+  border-radius: 5px;     
+
+  transition: background-color 0.3s ease;
+  border: 2px solid rgb(207, 79, 29); 
+}
+
+
+
+.btn-default {
+    background-color: white;
+    color: rgb(223, 115, 14);           
+    width: 130px;            
+    height: 40px;             
+    border-radius: 5px;     
+    border-color: rgb(34, 19, 9);
+    transition: background-color 0.3s ease;
+    border: 2px solid rgb(230, 121, 12); 
+    cursor: pointer;
+   
+  }
+  .btn:hover {
+    background-color: rgb(240, 77, 12);     
+   color: rgb(240, 236, 231);               
+    border-color: rgb(226, 98, 12);        
+   }
+   .table{
+    padding: 20px; 
+   }
+   .td{
+    padding: 10px, 20px;
+   }
+   /* .custom-btn {
+    background-color: #ff7a1a; /* Orange */
+    /* color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .custom-btn:hover {
+    background-color: #ff9b42;
+  }  */
+
+
+  .form-control {
+    flex: 1;
+    border-radius: 0;
+    height: 44px;
+  }
+  
+  .custom-btn {
+    background-color: #ff7a1a; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .custom-btn:hover {
+    background-color: #ff9b42;
+  }
+
+
+/* #carouselExampleControls {
+  height: 50vh;
+}
+#carouselExampleControls .carousel-inner {
+  height: 100%;
+}
+
+#carouselExampleControls .carousel-item {
+  height: 100%;
+}
+
+#carouselExampleControls .carousel-item img {
+  object-fit: cover;
+  height: 100%;
+} */
+
+.btn-outline {
+  border-color: #fa6f1c;
+  color: #fa6f1c;
+}
+
+.btn-outline:hover {
+  background-color: #fa6f1c; 
+  color: #fff; 
+}
+
+
+.d1{
+  width: 100% !important;
+  height: 220px !important;
+  position: relative;
+  background: url(https://themes.wplook.com/html/charity/assets/images/temp/main-image-1.jpg)
+    no-repeat;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.text{
+  position: absolute;
+  top: 4em;
+  padding: 2em;
+}
+
+   
+
+ 

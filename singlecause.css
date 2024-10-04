@@ -1,0 +1,85 @@
+*{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+      font-weight: weight;
+    font-style: normal; 
+} 
+.bg-dark.header {
+   position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; 
+   width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+} 
+
+.btn-donate {
+    background-color: white;
+    color: rgb(223, 115, 14);           
+    width: 130px;            
+    height: 40px;             
+    border-radius: 5px;     
+  
+    transition: background-color 0.3s ease;
+    border: 2px solid rgb(207, 79, 29); 
+  }
+  .btn:hover {
+    background-color: rgb(240, 77, 12);     
+   color: white;               
+    border-color: rgb(226, 98, 12);        
+   }
+
+  
+  .nav-button{
+    outline: black;
+    border: black;
+  }
+ .arrow {
+  text-decoration: none !important;
+ }
+ .nav-button:hover{
+  background-color: rgb(223, 126, 14);
+  color: white;
+ }
+
+
+ .nav-button {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btn-outline {
+  border-color: #fa6f1c;
+  color: #fa6f1c;
+}
+
+.btn-outline:hover {
+  background-color: #fa6f1c; 
+  color: #fff; 
+}
+
+.d1{
+  width: 100% !important;
+  height: 220px !important;
+  position: relative;
+  background: url(./assests/main-image-2.jpg)
+    no-repeat;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.text{
+  position: absolute;
+  top: 4em;
+  padding: 2em;
+}
+
+
+
+
+
+

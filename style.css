@@ -1,0 +1,272 @@
+*{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+      font-weight: weight;
+    font-style: normal; 
+} 
+.bg-dark.header {
+   position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; 
+   width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 3px; */
+} 
+
+@media (max-width: 768px) {
+  .d-flex.justify-content-between.align-items-center.pt-5 {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-info {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+
+
+  .nav-link {
+    color: black;
+    transition: color 0.3s ease; 
+  }
+  
+  .nav-link:hover {
+    color: orange; 
+  }
+  
+  .nav-link.active {
+    color: black;
+  }
+
+  .nav-link:hover {
+    color: rgb(221, 106, 12) !important; 
+  }
+  
+ 
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .header {
+    padding: 10px 20px;
+  }
+  
+  .contact-info h7 {
+    margin-bottom: 0;
+  }
+  .btn-donate {
+    background-color: white;
+    color: rgb(223, 115, 14);           
+    width: 130px;            
+    height: 40px;             
+    border-radius: 5px;     
+  
+    transition: background-color 0.3s ease;
+    border: 2px solid rgb(207, 79, 29); 
+  }
+  .btn:hover {
+    background-color: rgb(240, 77, 12);     
+   color: white;               
+    border-color: rgb(226, 98, 12);        
+   }
+
+   ul{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+   }
+
+   .carousel-item img {
+    height: 650px; 
+    object-fit: cover; 
+  }
+  
+  .carousel-inner .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .small{
+    height: 150px; 
+    object-fit: cover;
+  }
+  .carousel-item p {
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Media query for larger screens */
+  @media (min-width: 992px) {
+ 
+    .carousel-item img {
+      height: 70vh; 
+      object-fit: cover; 
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .carousel-item img {
+      height: 80vh; 
+      object-fit: cover;
+    }
+  }
+
+
+
+/* Container for buttons and heading */
+.featured-news-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Style for the button container */
+.button-container {
+  display: flex;
+  gap: 10px; 
+}
+
+/* General button styles */
+.nav-button {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: orange;
+}
+
+/* Cards layout */
+.news-cards-container {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+}
+
+.card {
+  display: flex;
+  max-width: 540px;
+  width: 100%;
+}
+ 
+.text:hover {
+  background-color: rgb(228, 87, 32);
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.icon {
+  color: #0f1114; 
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  background-color: rgb(228, 87, 32);
+  color: white; 
+}
+
+@media (max-width: 768px) {
+  .section-foot {
+   flex-direction: column; 
+  }
+}
+
+
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.form-control {
+  flex: 1;
+  border-radius: 0;
+  height: 36px;
+}
+
+.custom-btn {
+  background-color: #ff7a1a; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.custom-btn:hover {
+  background-color: #ff9b42;
+}
+
+
+
+
+
+
+
+ @media (max-width: 768px) {
+  .input-group.mb-3.p-4 {
+     /* flex-direction: row;  */
+   
+    align-items: center;
+  }
+  
+  .form-control.rounded-start-pill.py-sm-3 {
+    width: 70%;
+    height: 44px;
+    padding: 10px;
+    display: flex;
+  }
+  
+  .btn.custom-btn {
+    width: 30%;
+    height: 44px;
+    padding: 0px;
+   
+  }
+} 
+
+.btn-outline {
+  border-color: #fa6f1c;
+  color: #fa6f1c;
+}
+
+.btn-outline:hover {
+  background-color: #fa6f1c; 
+  color: #fff; 
+}
+
+
+
+
+
+
+
